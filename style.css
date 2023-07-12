@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#main{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+#nav{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:0 30px ;
+
+}
+img{
+    height: 60px;
+}
+#nav-2{
+    display: flex;
+    gap: 55px;
+}
+#nav-3{
+    display: flex;
+    gap: 55px;
+}
+#nav h3{
+    text-transform:uppercase;
+    align-items: center;
+}
+#nav h4{
+    text-transform:uppercase;
+}
+nav button{
+    background-color: #ffff;
+    color: black;
+    padding: 18px 25px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#main h1{
+    font-size: 160px;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#main h1 span{
+    background-color: brown;
+    padding:20px 40px;
+    border-radius:50px ;
+    font-size: 25px;
+     margin: 0 30px;
+}
+#main #left-img{
+    height: 300px;
+    position: absolute;
+    top: 14%;
+    left:7% ;
+    border-radius: 30px;
+}
+#main #right-img{
+    height: 300px;
+    position: absolute;
+    bottom: 14%;
+    right:7% ;
+    border-radius: 30px;
+}
+#main #leftb-img{
+    height: 300px;
+    position: absolute;
+    bottom: 10%;
+    left:19% ;
+    border-radius: 30px;
+}
+h5{
+    position: absolute;
+    bottom: 10%;
+    left:50%;
+    transform: translate(-50%,0);
+    font-size: 25px;
+}
